@@ -1,0 +1,36 @@
+.cards{
+    width:400px;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 50px;
+}
+img{
+    width: 100%;
+    border-radius: 25px;
+}
+h2{
+    color:lightcoral/*#d56f3e*/;
+    font-family: "Edu AU VIC WA NT Pre", serif;
+}
+span{
+    color:#9d6f24;
+}
+h4{
+    text-align: right;
+    color:#3c787e;
+    font-family: "Edu AU VIC WA NT Pre", serif;
+}
+#pets{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+@media (max-width:413px){
+    #pets{
+        flex-wrap: wrap;
+    }
+}
+h1{
+    font-family: "Edu AU VIC WA NT Pre", serif;
+}
